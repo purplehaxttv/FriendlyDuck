@@ -1,6 +1,6 @@
 {
   "name": "FriendlyDuck",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/purplehaxttv/FriendlyDuck", 
   "description": "Makes the duck in R.E.P.O. friendly. It jumps, it follows, but never attacks.",
   "dependencies": [
