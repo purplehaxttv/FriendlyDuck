@@ -1,14 +1,11 @@
 # Build artifacts
-bin/
-obj/
+bin/*
+obj/*
 *.dll
 *.pdb
 *.zip
 
 # User/IDE files
-.vs/
+.vs/*
 *.user
 *.suo
-
-# Thunderstore build output
-ThunderstoreBuild/FriendlyDuck.zip
