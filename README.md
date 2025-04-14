@@ -7,3 +7,5 @@ Use Thunderstore Mod Manager, or install manually by placing the DLL into your B
 
 ## Author
 Made by @purplehaxttv
+
+Credit for mod idea goes to AmberTheRambler. Check her out on [Twitch](https://twitch.tv/ambertherambler)
