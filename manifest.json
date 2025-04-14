@@ -1,0 +1,9 @@
+{
+  "name": "FriendlyDuck",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/yourusername/FriendlyDuck", 
+  "description": "Makes the duck in R.E.P.O. friendly. It jumps, it follows, but never attacks.",
+  "dependencies": [
+  "BepInEx-BepInExPack-5.4.2100"
+]
+}
