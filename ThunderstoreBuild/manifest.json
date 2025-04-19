@@ -1,8 +1,8 @@
 {
   "name": "FriendlyDuck",
-  "version_number": "1.0.2",
+  "version_number": "2.0.0",
   "website_url": "https://github.com/purplehaxttv/FriendlyDuck", 
-  "description": "Makes the duck in R.E.P.O. friendly. It jumps, it follows, but never attacks.",
+  "description": "Makes the duck in R.E.P.O. friendly. It jumps, it follows, but never attacks. You can press e on the duck and it will show you some love. ",
   "dependencies": [
   "BepInEx-BepInExPack-5.4.2100"
 ],
