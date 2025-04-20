@@ -33,7 +33,7 @@ public class Patch_EnemyDuck_OnSpawn
     {
         if (__instance != null)
         {
-            FriendlyDuckPlugin.Logger.LogInfo($">>> EnemyDuck spawned at position: {__instance.transform.position}");
+            FriendlyDuckPlugin.Logger.LogInfo($">>> Our little guy spawned at position: {__instance.transform.position}");
         }
     }
 }
