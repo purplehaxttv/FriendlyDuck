@@ -21,7 +21,7 @@ public class Patch_EnemyDuck_OnGrabbed
         }
 
         jumpMethod.Invoke(__instance, null);
-        FriendlyDuckPlugin.Logger.LogInfo("AnnoyingJump triggered via OnGrabbed.");
+        //FriendlyDuckPlugin.Logger.LogInfo("AnnoyingJump triggered via OnGrabbed.");
         return false; // Skip default attack behavior
     }
 }
@@ -50,7 +50,7 @@ public class Patch_EnemyDuck_Update
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            FriendlyDuckPlugin.Logger.LogInfo("E key pressed while duck is grabbed — spawning hearts!");
+            //FriendlyDuckPlugin.Logger.LogInfo("E key pressed while duck is grabbed — spawning hearts!");
 
             GameObject heartFX = Object.Instantiate(
                 ModAssets.HeartParticlesPrefab,
@@ -68,7 +68,7 @@ public class Patch_EnemyDuck_StateAttackStart
 {
     static bool Prefix()
     {
-        FriendlyDuckPlugin.Logger.LogInfo("Blocked StateAttackStart.");
+        //FriendlyDuckPlugin.Logger.LogInfo("Blocked StateAttackStart.");
         return false; // Skip attack behavior
     }
 }
@@ -78,7 +78,7 @@ public class Patch_EnemyDuck_OnHurt
 {
     static bool Prefix()
     {
-        FriendlyDuckPlugin.Logger.LogInfo("Blocked OnHurt reaction.");
+        //FriendlyDuckPlugin.Logger.LogInfo("Blocked OnHurt reaction.");
         return false; // Prevent hurt reaction
     }
 }
@@ -88,7 +88,7 @@ public class Patch_EnemyDuck_OnObjectHurt
 {
     static bool Prefix()
     {
-        FriendlyDuckPlugin.Logger.LogInfo("Blocked OnObjectHurt reaction.");
+        //FriendlyDuckPlugin.Logger.LogInfo("Blocked OnObjectHurt reaction.");
         return false;
     }
 }
@@ -98,7 +98,7 @@ public class Patch_EnemyDuck_StateDespawn
 {
     static bool Prefix()
     {
-        FriendlyDuckPlugin.Logger.LogInfo("Blocked StateDespawn.");
+        //FriendlyDuckPlugin.Logger.LogInfo("Blocked StateDespawn.");
         return false; // Prevent despawning
     }
 }
@@ -108,7 +108,7 @@ public class Patch_EnemyDuck_StateStun
 {
     static bool Prefix()
     {
-        FriendlyDuckPlugin.Logger.LogInfo("Blocked StateStun.");
+        //FriendlyDuckPlugin.Logger.LogInfo("Blocked StateStun.");
         return false; // Prevent stun
     }
 }
