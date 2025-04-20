@@ -74,7 +74,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DuckPatches.cs" />
-    <Compile Include="DuckRightClickPet.cs" />
     <Compile Include="FriendlyDuckPlugin.cs" />
     <Compile Include="ModAssets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
